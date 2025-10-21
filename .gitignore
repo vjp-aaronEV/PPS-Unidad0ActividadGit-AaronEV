@@ -1,0 +1,11 @@
+# creando y añadiendo txt y Excluded en .gitignoregit 
+echo "*.txt" > .gitignore
+echo "Excluded" >> .gitignore
+
+# creando carpeta excluded y archivo dentro de ella
+touch  Excluded/otroarchivoexcluido
+#Creando archivo excluido.txt
+touch excluido.txt
+# haciendo commit
+git add .
+git commit -am "añadiendo .gitignore"
